@@ -1,6 +1,6 @@
 
 <div id="cover-banner">
-  <img src="/config/icon/1f389.png" alt="Confetti Icon">
+  <img src="config/icon/1f389.png" alt="Confetti Icon">
   <span>等待我们相遇</span>
 </div>
 
