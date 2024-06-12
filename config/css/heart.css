@@ -1,0 +1,38 @@
+.heart {
+  width: 10px;
+  height: 10px;
+  position: fixed;
+  background-color: var(--color, red);
+  transform: rotate(-45deg);
+  animation: moveUp 2s linear;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: inherit;
+}
+
+.heart:before {
+  border-radius: 50%;
+  top: -5px;
+  left: 0;
+}
+
+.heart:after {
+  border-radius: 50%;
+  top: 0;
+  left: 5px;
+}
+
+@keyframes moveUp {
+  to {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+}

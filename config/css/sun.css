@@ -1,0 +1,4 @@
+.sidebar-nav li a.active::before {
+  content: "🌝";
+  margin-right: 5px;
+}

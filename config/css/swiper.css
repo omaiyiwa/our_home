@@ -1,0 +1,30 @@
+.swiper {
+  width: 500px;
+  height: 500px;
+}
+.swiper-slide img {
+  max-width: 100%;
+  max-height: 80%;
+  object-fit: contain;
+}
+.image-caption {
+  text-align: center;
+  padding: 8px 0;
+  width: 100%;
+<!--        background-color: rgba(0, 0, 0, 0.5); /* 半透明背景色，提高可读性 */-->
+  color: #ffffff; /* 文字颜色 */
+  font-size: 18px; /* 文字大小根据需求调整 */
+  font-family: "Arial", sans-serif; /* 文字字体，根据需要调整 */
+  font-weight: bold; /* 文字加粗 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 文本阴影 */
+  letter-spacing: 1px; /* 字间距 */
+  line-height: 1.5; /* 行高 */
+}
+#swiper1 {
+  width: 500px;
+  height: 500px;
+}
+#swiper2 {
+  width: 200px;
+  height: 200px;
+}

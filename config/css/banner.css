@@ -1,0 +1,38 @@
+  @font-face {
+    font-family: 'KaiTi';
+    src: local('KaiTi');
+  }
+
+  #cover-banner {
+    width: 100%; /* 调整横幅宽度 */
+    height: 2rem;
+    padding: 0 20px; /* 适当减少内边距 */
+    display: flex; /* 使用flex布局 */
+    align-items: center; /* 垂直居中对齐内容 */
+    justify-content: center; /* 水平居中对齐内容 */
+
+    background: rgba(173, 216, 230, 0.5); /* 半透明淡蓝色背景 */
+    color: #555555; /* 淡黑色 */
+    text-align: center;
+    font-family: 'KaiTi', '楷体', 'STKaiTi', 'Arial', sans-serif; /* 使用楷体 */
+
+    position: absolute;
+    top: -100%; /* 调整位置，确保在中间偏上 */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    margin: auto 5px;
+    font-size: 1.3rem; /* 增加字体大小 */
+	font-weight: bold; /* 加粗 */
+    line-height: 2rem; /* 设置行高，使内容垂直居中 */
+  }
+
+  #cover-banner img {
+    margin-right: 10px; /* 新增的属性，留出图片与文字之间的间隔 */
+    height: 1.1rem;
+    vertical-align: middle;  /* 添加垂直对齐方式 */
+  }
+
+  #cover-banner span {
+    letter-spacing: 0.5rem; /* 根据需要调整文字间隔 */
+  }
