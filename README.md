@@ -10,7 +10,7 @@
 
 幸运的是，在最后几个月遇到了特别的人，让这个夏天有了温暖的终章。
 
-![](/images/me/21.6.coll.jpg "夏日终章 (ps: 最右侧的我, 帽檐不会戴啊!)")
+![](images/me/21.6.coll.jpg "夏日终章 (ps: 最右侧的我, 帽檐不会戴啊!)")
 
 <hr style="height: 2px; border: none; background: #ccc; margin: 1em 0;">
 
@@ -24,7 +24,7 @@
 
 那些独自啃食知识的日子，就像在晨雾中擦拭玻璃——虽然看不清远方，但确信每一刻的擦拭都在让未来变得更透亮些。
 
-<img src="/images/me/22.ao.jpg" alt="心态在慢慢变化" title="心态在慢慢变化" style="max-width: 300px; height: auto;" />
+<img src="images/me/22.ao.jpg" alt="心态在慢慢变化" title="心态在慢慢变化" style="max-width: 300px; height: auto;" />
 
 <hr style="height: 2px; border: none; background: #ccc; margin: 1em 0;">
 
@@ -42,8 +42,8 @@
 
 拿到驾照后的第一台车，却在上牌日发生剐蹭（赔偿300元的初体验）。虽然出师不利，但终于拥有了属于自己的移动空间
 
-| <img src="/images/me/23.7.che.jpg" title="青涩的初次驾驶, &#10;拍照都没自信了"> | <img src="/images/me/23.7.che1.jpg" title="2025.4, 觉得衣服不好看(其实是人不好看), &#10;给自己换了一身(嘻嘻)"> |
-|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| <img src="images/me/23.7.che.jpg" title="青涩的初次驾驶, &#10;拍照都没自信了"> | <img src="images/me/23.7.che1.jpg" title="2025.4, 觉得衣服不好看(其实是人不好看), &#10;给自己换了一身(嘻嘻)"> |
+|------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 
 > 十一月迁徙 | 寒冬挑战
 > 
@@ -65,7 +65,7 @@
 
 看着她和弟弟享用番茄锅时的笑容，突然明白有些心意不必非要仪式证明
 
-<img src="/images/me/24.5.cat.jpg" alt="懒惰小猫" title="懒惰小猫" style="max-width: 300px; height: auto;" />
+<img src="images/me/24.5.cat.jpg" alt="懒惰小猫" title="懒惰小猫" style="max-width: 300px; height: auto;" />
 
 > 六月跃进 | 金陵新章
 > 
@@ -83,12 +83,12 @@
 
 <div class="swiper" id="swiper1">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="/images/me/25.1.wa.jpg" alt="同事带我来抓娃娃"></div>
-        <div class="swiper-slide"><img src="/images/me/25.1.zhan.jpg" alt="100多块的战利品"></div>
-        <div class="swiper-slide"><img src="/images/me/25.1.ya.jpg" alt="同事送我的大白鹅"></div>
-        <div class="swiper-slide"><img src="/images/me/25.1.xia.jpg" alt="好大的螃蟹"></div>
-        <div class="swiper-slide"><img src="/images/me/25.1.jiu.jpg" alt="好难喝的红酒"></div>
-        <div class="swiper-slide"><img src="/images/me/25.1.jiang.jpg" alt="荣誉证书"></div>
+        <div class="swiper-slide"><img src="images/me/25.1.wa.jpg" alt="同事带我来抓娃娃"></div>
+        <div class="swiper-slide"><img src="images/me/25.1.zhan.jpg" alt="100多块的战利品"></div>
+        <div class="swiper-slide"><img src="images/me/25.1.ya.jpg" alt="同事送我的大白鹅"></div>
+        <div class="swiper-slide"><img src="images/me/25.1.xia.jpg" alt="好大的螃蟹"></div>
+        <div class="swiper-slide"><img src="images/me/25.1.jiu.jpg" alt="好难喝的红酒"></div>
+        <div class="swiper-slide"><img src="images/me/25.1.jiang.jpg" alt="荣誉证书"></div>
     </div>
 </div>
 
@@ -98,5 +98,5 @@
 
 绵阳项目教会我，中国真是地大物博
 
-| <img src="/images/me/25.2.sc1.jpg" title="白天的我你爱答不理"> | <img src="/images/me/25.2.sc.jpg" title="夜晚的我你高攀不起"> |
-|-------------------------------------------------------|------------------------------------------------------|
+| <img src="images/me/25.2.sc1.jpg" title="白天的我你爱答不理"> | <img src="images/me/25.2.sc.jpg" title="夜晚的我你高攀不起"> |
+|------------------------------------------------------|-----------------------------------------------------|
