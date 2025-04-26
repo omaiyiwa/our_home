@@ -1,14 +1,3 @@
-/* 根元素调整布局 */
-#app {
-    display: fixed;
-}
-
-/* 主要内容区域 */
-.content {
-    flex: 1;
-    margin-right: 250px; /* 右侧栏宽度+一些间距 */
-}
-
 /* 右侧固定栏样式 */
 #sidebar {
      /* margin-left: 50px; */
@@ -25,18 +14,13 @@
 
 /* 新功能区域样式 */
 .new-feature {
-    padding: 5px;
+    padding: 50px 30px 15px 0;
     margin-bottom: 5px; /* 与下面的内容保持一点距离 */
     margin-right: 20px; /* 与侧边栏保持一点距离 */
     background-image: url('../icon/10.png'); /* 使用你的边框图片 */
     background-size: contain; /* 让背景图片覆盖整个区域 cover  contain */
     background-repeat: no-repeat; /* 不重复背景图片 */
     height: 300px; /* 举例，根据实际图片调整 */
-    /* 根据你的图片调整内边距以使文字内容在图片边框内 */
-    padding-top: 50px /* 顶部内边距 */;
-    padding-right: 30px/* 右侧内边距 */;
-    padding-bottom: 10px /* 底部内边距 */;
-    padding-left:/* 左侧内边距 */;
 }
 
 /* 特定文字样式 */
@@ -57,43 +41,4 @@
     padding-right: 30px/* 右侧内边距 */;
     margin-bottom: 5px; /* 与下面的内容保持一点距离 */
     margin-right: 20px; /* 与侧边栏保持一点距离 */
-}
-
-.lyrics-container {
-  height: 200px; /* 容器的高度 */
-  overflow: hidden; /* 隐藏超出容器的内容 */
-  position: relative;
-}
-
-.lyrics-container {
-  height: 200px; /* 容器的高度，根据需要调整 */
-  overflow: hidden; /* 隐藏超出容器的内容 */
-  position: relative;
-}
-
-.lyric {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  font-size: 16px;
-  transform: scale(1);
-  position: relative;
-}
-
-.lyric.active {
-  opacity: 1;
-  font-size: 24px; /* 正在播放的行放大 */
-  transform: scale(1.5); /* 放大效果 */
-}
-
-.lyric.previous, .lyric.next {
-  opacity: 1;
-  font-size: 16px; /* 默认字体大小 */
-}
-
-.lyric.previous {
-  transform: translateY(-20px); /* 向上滚动 */
-}
-
-.lyric.next {
-  transform: translateY(20px); /* 向下滚动 */
 }

@@ -26,35 +26,14 @@
 		<link rel="stylesheet"
 			  href="config/css/heart.css">
 		<link rel="stylesheet"
-			  href="config/css/sun.css">
-		<link rel="stylesheet"
 			  href="config/css/custom.css">
 		<link rel="stylesheet"
-			  href="config/css/scrollbar.css">
+			  href="config/css/font.css">
 		<link rel="stylesheet"
 			  href="config/css/banner.css">
 	</head>
 	<body>
 		<div id="app">🚀 🏃 💨 🐢加载中...</div>
-		<div id="sidebar">
-			<img src="images/YYS/SP/纺愿缘结神.png"
-				 alt="bilibili"
-				 class="sidebar-image">
-			<div class="new-feature">
-				<p>
-					<span class="highlight-text">风沐惜&</span>
-					<span class="highlight-text">软糖酱少女&</span>
-					<span class="highlight-text">倾听你心跳的旋律&</span>
-				</p>
-<!--				<div class="lyrics-container">-->
-<!--				  <p class="lyric">这是第一行歌词</p>-->
-<!--				  <p class="lyric">这是第二行歌词</p>-->
-<!--				  <p class="lyric">这是第三行歌词</p>-->
-<!--				  <p class="lyric">这是第四行歌词</p>-->
-<!--				  <p class="lyric">这是第五行歌词</p>-->
-<!--				</div>-->
-			</div>
-		</div>
 		<script>
 			window.$docsify =
 							{
@@ -64,16 +43,18 @@
 							  autoHeader: true,
 							  subMaxLevel: 2,
 							  auto2top: true,
-							  homepage: '_home.md',
+							  homepage: 'README.md',
 							  coverpage: true,
-							  onlyCover: true,
-							  auto2top: true,
+							  onlyCover: false,
 							  logo: '',
 							  name: '茉莉花茶',
+							  nameLink: '/',
 							  noEmoji: false,
 							  mergeNavbar: true,
 							  notFoundPage: true,
 							  topMargin: 90,
+							  sidebarDisplayLevel: 1, // 默认展开层级
+
 							  corner: {
 									url: "https://acgsecrets.hk/",
 									icon: "Spring",
@@ -151,10 +132,10 @@
 		</script>
 		<script src="config/js/swiper.js"></script>
 		<script src="config/js/heart.js"></script>
-		<script src="config/js/sun.js"></script>
 <!--		<script src="config/js/music.js"></script>-->
 		<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>

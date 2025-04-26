@@ -1,21 +1,38 @@
-/* 网页右侧滚动条样式 */
+/* 全局滚动条样式 */
 ::-webkit-scrollbar {
-    width: 5px; /* 调整滚动条宽度 */
+    width: 15px; /* 加宽滚动条，提高可操作性 */
 }
 
 /* 滚动条轨道 */
 ::-webkit-scrollbar-track {
-    background: transparent;
+    background: rgba(245, 245, 245, 0.5); /* 半透明白色轨道 */
+    border-radius: 10px;
+    margin: 5px 0; /* 上下留出空间 */
 }
 
 /* 滚动条滑块 */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #00C9FF, #92FE9D);/* 橙色到黄色渐变 */
-    border-radius: 6px; /* 使滑块圆角 */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* 紫色渐变 */
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3); /* 白色半透明边框 */
+    background-clip: padding-box; /* 防止背景色溢出到边框 */
+    transition: all 0.3s ease; /* 平滑过渡效果 */
 }
 
-/* 滚动条滑块在悬停状态时的样式 */
+/* 悬停状态 */
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #00C9FF, #92FE9D);/* 橙色到黄色渐变 */
-    opacity: 0.8; /* 悬停时略微透明 */
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%); /* 反转渐变方向 */
+    transform: scale(1.05); /* 轻微放大效果 */
+    opacity: 1;
+}
+
+/* 激活状态（拖动时） */
+::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%); /* 更深的紫色 */
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* 角落区域（水平和垂直滚动条交汇处） */
+::-webkit-scrollbar-corner {
+    background: transparent;
 }

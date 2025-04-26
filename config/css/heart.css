@@ -1,3 +1,7 @@
+:root {
+  --color: red; /* 定义变量 */
+}
+
 .heart {
   width: 10px;
   height: 10px;
@@ -5,7 +9,7 @@
   background-color: var(--color, red);
   transform: rotate(-45deg);
   animation: moveUp 2s linear;
-  z-index: 1000;
+  z-index: 9999;
   pointer-events: none;
 }
 

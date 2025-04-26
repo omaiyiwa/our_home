@@ -1,4 +1,9 @@
-/* body {
-  font-family: 'KaiTi', '楷体', serif;
-  font-size: 16pt; /* 设置字号为12号，根据需要可调整为10.5pt */
-} */
+body {
+  font-family:
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans SC",
+    "Helvetica Neue", Arial, sans-serif, "KaiTi", "楷体";
+  font-size: 16px; /* 推荐用 px 而非 pt，更符合网页标准 */
+  line-height: 1.6; /* 行高增加可读性 */
+  text-rendering: optimizeLegibility; /* 优化字体渲染 */
+}
