@@ -3,9 +3,9 @@
      /* margin-left: 50px; */
     width: 250px;
     /* 固定在右侧 */
-    position: fixed;
+    position: absolute;
     right: 10px;
-    top: 150px;
+    top: -80%;
     /* 样式调整 */
     height: 50%;
     z-index: 1000; /* 确保在其它内容上方 */
