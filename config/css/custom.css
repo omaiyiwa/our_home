@@ -14,9 +14,9 @@
 
 /* 新功能区域样式 */
 .new-feature {
-    padding: 50px 30px 15px 0;
+    padding: 70px 10px 15px 0;
     margin-bottom: 5px; /* 与下面的内容保持一点距离 */
-    margin-right: 20px; /* 与侧边栏保持一点距离 */
+    margin-right: 10px; /* 与侧边栏保持一点距离 */
     background-image: url('../icon/10.png'); /* 使用你的边框图片 */
     background-size: contain; /* 让背景图片覆盖整个区域 cover  contain */
     background-repeat: no-repeat; /* 不重复背景图片 */

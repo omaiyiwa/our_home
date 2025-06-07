@@ -10,8 +10,7 @@
     <div class="new-feature">
         <p>
             <span class="highlight-text">风沐惜&</span>
-            <span class="highlight-text">软糖酱少女&</span>
-            <span class="highlight-text">倾听你心跳的旋律&</span>
+            <span class="highlight-text">有缘人&</span>
         </p>
     </div>
 </div>
